@@ -1,17 +1,20 @@
 body {
   background-color: black;
   margin: 0 5vw 0 5vw;
+  font-family: 'Lora', serif;
 }
 
 #top-section {
-    background-image: url("https://images.unsplash.com/photo-1488502782006-0a9a516cd7a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 50vw;
+  background-image: url("https://images.unsplash.com/photo-1488502782006-0a9a516cd7a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vw;
 }
 
 h1 {
   font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   text-align: center;
   color: white;
   padding-top: 2vw;
@@ -40,25 +43,42 @@ h1 {
   padding: 10px;
 }
 
+#short-description p {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  margin: 17vw 24vw 0vw 24vw;
+}
+
 #middle-section {
-    background-image: url("https://images.unsplash.com/photo-1541261162402-a69fa9d11811?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 50vw;
+  background-image: url("https://images.unsplash.com/photo-1541261162402-a69fa9d11811?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vw;
 }
 
 #about-text-section {
-  background-color: white;
-  height: 20vw;
-  margin: 0 20vw 0 20vw;
+  background-color: black;
+  height: 27vw;
+  margin: 0 15vw 0 15vw;
   opacity: 0.95;
 }
 
+#about-text-section p {
+  margin: 0 2em 1em 2em;
+  padding-top: 1em;
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Poppins', sans-serif;
+}
+
 #bottom-section {
-    background-image: url("https://images.unsplash.com/photo-1540888513280-fac1aa56c69f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80");
-    background-attachment: fixed;
-    background-size: cover;
-    height: 50vw;
+  background-image: url("https://images.unsplash.com/photo-1540888513280-fac1aa56c69f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 50vw;
 }
 
 #projects-text-section {
