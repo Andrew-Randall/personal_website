@@ -14,7 +14,7 @@ body {
 h1 {
   font-size: 3em;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   text-align: center;
   color: white;
   padding-top: 2vw;
@@ -82,8 +82,8 @@ h1 {
 }
 
 #projects-text-section {
-  background-color: white;
-  height: 20vw;
-  margin: 0 20vw 0 20vw;
+  background-color: black;
+  height: 27vw;
+  margin: 0 15vw 0 15vw;
   opacity: 0.95;
 }
